@@ -1,3 +1,19 @@
 #triresult {
   display: none;
 }
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: Black;
+  color: white;
+}
+legend {
+  color: white;
+  text-align: center;
+}
+body {
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif'; }
+input {
+  color: black;
+}
