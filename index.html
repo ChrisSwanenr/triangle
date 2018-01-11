@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
     <meta charset="utf-8">
     <title>Triangles</title>
   </head>
   <body>
-
+    <div class="container">
+    <form id="triangle">
+  <fieldset>
+    <legend>What kind of triangle is it?</legend>
+    <div class="angles">
+    <label>Side 1</label>
+    <input id="input1" type="text" placeholder="Input Side">
+    <label>Side 2</label>
+    <input id="input2" type="text" placeholder="Input Side">
+    <label>Side 3</label>
+    <input id="input3" type="text" placeholder="Input Side">
+    <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+  </fieldset>
+    </form>
+    <h1 id="triresult"> Your triangle is <span id="result"></span>!<h1>
+    </div>
   </body>
 </html>
